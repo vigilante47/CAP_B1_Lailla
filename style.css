@@ -1,0 +1,141 @@
+body {
+  background: #0a0a5c;
+}
+.title {
+  color: #f8f8ab;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 50;
+}
+.title1{
+  color: #f8f8ab;
+  font-size: 50;
+  letter-spacing: 2px;
+}
+.description{
+   color: #ffdb99;
+    font-size: 30px;
+  text-align: center;
+}
+
+.explanation{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.BWdescription{
+  color: #ffdb99;
+    font-size: 25px;
+  text-align: center;
+  max-width: 380px;
+
+}
+
+.BWdescription1{
+  color: #ffdb99;
+    font-size: 25px;
+  text-align: center;
+  max-width: 380px;
+
+}
+
+.BWdescription2{
+  color: #ffdb99;
+    font-size: 25px;
+  text-align: center;
+  max-width: 380px;
+  
+}
+
+.container {
+   display: flex;
+    align-items: center; 
+}
+.container1 {
+    display: flex;
+  justify-content: space-evenly;
+}
+.container2{
+   display: flex;
+  justify-content: space-evenly;
+}
+
+.flora{
+  margin-top: 100px;
+}
+.app{
+  margin-bottom: 50px;
+}
+.text {
+    width: 50%;
+    color: #ffdb99;
+    font-size: 25px;
+    letter-spacing: 2px;
+    line-height: 1.5;
+  padding-right: 60px;
+  align-items: center;
+  padding-left: 50px;
+}
+.text1{
+      width: 95%;
+    color: #ffdb99;
+    font-size: 25px;
+    letter-spacing: 2px;
+    line-height: 1.5;
+  padding-right: 60px;
+  align-items: center;
+  padding-left: 50px;
+}
+
+.photo {
+ width: 50%;
+    display: flex;
+    justify-content: center;
+  padding-top: 60px;
+}
+
+img {
+  width: 50%;
+  width: 700;
+  display: flex;
+    justify-content: center;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #101084;
+  font-family: monospace;
+  font-size: 20;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: #d2fbbc;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+  ul {
+  position: sticky;
+  top: 0;
+}
+}
+ul li {
+  float: left;
+  border-right: 1px solid #bbbbbb;
+}
+
+ul li:last-child {
+  border-right: none;
+}
